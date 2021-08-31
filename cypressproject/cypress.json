@@ -1,0 +1,20 @@
+{
+    "testFiles": "**/*.feature",
+   
+    "defaultCommandTimeout":20000,
+    "pageLoadTimeout":120000,
+    "viewportWidth": 1200,
+    "viewportHeight": 900,
+    "env":
+    {
+        
+
+        "Baseurl":"https://d8-test.topuniversities.com",
+        
+        "WUR":"/university-rankings/university-subject-rankings/2021/arts-humanities",
+        "TU":"/university-rankings/world-university-rankings/2022",
+
+        "TM":"https://d8-test.topmba.com/mba-rankings/global/2021"
+
+    }
+}

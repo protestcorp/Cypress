@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "University website validation",
+    "line": 1,
+    "id": "university-website-validation",
+    "tags": [],
+    "uri": "Universityapp.feature",
+    "elements": [
+      {
+        "id": "university-website-validation;if-the-score-is-greater-than-99-rank-should-be-1",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "if the score is greater than 99 rank should be 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 10396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "validate rank",
+            "result": {
+              "status": "passed",
+              "duration": 1578000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
